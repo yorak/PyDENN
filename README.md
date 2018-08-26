@@ -1,4 +1,4 @@
-
+**Please consider viewing the [PyDENN.ipynb](PyDENN.ipynb) instead.**
 
 ```
 import numpy as np
@@ -155,7 +155,7 @@ The canonical way of doing this is *Backpropagation*, which is not too hard to r
 In this exercise we use Differential Evolution (DE), which is conceptually simpler and perhaps more interesting from the machine learning perspective. It is a population based iterative generic optimization method. Each iteration of DE consists of $n$ tournaments for every solution in the population. In a tournament, the existing solution $x_i$ from the population is
 challenged by a trial solution $x_i^t$. The trial solution is based on the solution $x_i$, but also a noise vector created from three other solutions $x_a$, $x_b$, and $x_c$.
 
-![DE principle](http://raw.githubusercontent.com/juherask/PyDENN/master/images/Mahdavi2017DE_sml.jpg)
+![DE principle](images/Mahdavi2017DE_sml.jpg?raw=true)
 <br>*Image source: Mahdavi et al (2017) Analyzing Effects of...*
 
 
@@ -243,7 +243,7 @@ def nnet_differential_evolution(
 #Training
 Specify the functions that train the neural network with DE and optimize the weights. We use a neural network with an architecture of 4 input neurons (one for each feature), 3 output neurons (one for each class) and two hidden layers with 8 and 5 neurons. Why 8 and 5 you ask? That is why machine learning is sometimes considered to be more art than science. The achitecture of our network is illustrated below.
 
-![Example achitecture](http://raw.githubusercontent.com/juherask/PyDENN/master/images/4853.png)
+![Example achitecture](images/4853.png?raw=true)
 
 
 ```
