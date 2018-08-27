@@ -1,4 +1,4 @@
-**Please consider viewing the [PyDENN.ipynb](PyDENN.ipynb) instead.**
+**This is just (probaby outdated) HTML copy of the actual IPyhton Notebook. Please consider viewing the [PyDENN.ipynb](PyDENN.ipynb) instead.**
 
 ```
 import numpy as np
