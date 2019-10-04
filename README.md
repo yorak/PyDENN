@@ -174,7 +174,7 @@ The canonical way of doing this would be *Backpropagation*, which is not too har
 In this exercise we use Differential Evolution (DE), which is conceptually simpler and perhaps more interesting from the machine learning perspective. It is a population based iterative generic optimization method. Each iteration of DE consists of $n$ tournaments for every solution in the population. In a tournament, the existing solution $x_i$ from the population is
 challenged by a trial solution $x_i^t$. The trial solution is based on the solution $x_i$, but also a noise vector created from three other solutions $x_a$, $x_b$, and $x_c$. This is illustrated in the figure below, where $x_1$, $x_2$, $x_3$  correspond to $x_a$, $x_b$, $x_c$.
 
-<img src="http://raw.githubusercontent.com/juherask/PyDENN/master/images/Mahdavi2017DE_sml.jpg">
+<img src="images/Mahdavi2017DE_sml.jpg">
 <br>*Image source: Mahdavi et al (2017) Analyzing Effects of...*
 
 
